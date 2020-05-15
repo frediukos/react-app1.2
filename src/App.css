@@ -36,3 +36,37 @@
     transform: rotate(360deg);
   }
 }
+
+.wrapper {
+  width: 960px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.logo {
+  padding: 0;
+  display: inline;
+
+}
+
+.top-menu {
+  margin: 0;
+  padding: 0;
+  float: right;
+  display: flex;
+
+}
+
+.top-menu li {
+  font-family: 'Ubuntu Condensed', sans-serif;
+  color: coral;
+  display: inline;
+  margin: 73px;
+  padding: 0;
+  font-size: 22px;
+  font-weight: bold;
+
+}
