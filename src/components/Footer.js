@@ -1,14 +1,15 @@
 import React from 'react';
 import '../App.css';
-import FooterMenuItem from "./FooterMenuItem";
 
 function Footer() {
   return (
     <div className='wrapper'>
-      <FooterMenuItem/>
-      <FooterMenuItem/>
-      <FooterMenuItem/>
-      <FooterMenuItem/>
+      <ul className="footer">
+      <li><a href="#" >About</a></li>
+      <li><a href="#" >Crafts</a></li>
+      <li><a href="#" >Video</a></li>
+      <li><a href="#" >Contact</a></li>
+      </ul>
     </div>
   );
 }

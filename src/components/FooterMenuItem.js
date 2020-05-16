@@ -3,7 +3,7 @@ import '../App.css';
 
 function FooterMenuItem() {
   return (
-    <div className="App">
+    <div>
       this is FooterMenuItem
     </div>
   );

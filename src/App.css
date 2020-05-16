@@ -38,35 +38,87 @@
 }
 
 .wrapper {
-  width: 960px;
+  width: 1100px;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
-
 }
 
-.logo {
-  padding: 0;
-  display: inline;
+.wrapper h1 {
+  text-transform: lowercase;
+  font-size: 58px;
+  display: block;
+  margin: 0 20px 200px 200px;
+  text-align: left;
+  width: 25%;
+  padding-left: 15px;
+}
 
+.wrapper p {
+  color: #545454;
+  font-size: 18px;
+  letter-spacing: .004em;
+  letter-spacing: 0.3pt;
+  color: #545454;
+  margin: 0 0 30px;
+  text-align: left;
+  box-sizing: border-box;
+  width: 65%;
+  display: flex;
+  position: relative;
+}
+
+
+.logo {
+  padding: 15px 0;
+  display: inline;
 }
 
 .top-menu {
-  margin: 0;
-  padding: 0;
+  margin: 5px 40px;
+  padding: 40px 30px 0 20px;
   float: right;
   display: flex;
-
 }
 
 .top-menu li {
-  font-family: 'Ubuntu Condensed', sans-serif;
-  color: coral;
   display: inline;
-  margin: 73px;
-  padding: 0;
-  font-size: 22px;
-  font-weight: bold;
+  padding: 0 30px;
+  display: flex;
+}
 
+.top-menu li a {
+  font-family: "Mr Eaves XL Modern", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-decoration: none;
+  color: #545454;
+  font-size: 25px;
+  letter-spacing: 2px;
+  font-weight: normal;
+  margin: 0 50px;
+}
+
+.footer {
+  position: fixed;
+  left:0px;
+  bottom:0px;
+  height:30px;
+  width:100%;
+}
+
+.footer li {
+  display: inline;
+  padding: 0px 50px;
+  width: 100%;
+}
+
+.footer li a {
+  font-family: "Mr Eaves XL Modern", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-decoration: none;
+  color: dimgray;
+  font-size: 15px;
+  letter-spacing: 1px;
+  font-weight: normal;
+  padding: 10px 50px;
+  margin: 0px;
 }
